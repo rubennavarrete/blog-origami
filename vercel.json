@@ -1,0 +1,122 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/curso-programacion",
+      "destination": "/cursos/programacion-javascript"
+    },
+    {
+      "source": "/curso-nodejs-gratis",
+      "destination": "/cursos/nodejs-gratis"
+    },
+    {
+      "source": "/videollamada",
+      "destination": "/p/mentoria"
+    },
+    {
+      "source": "/about",
+      "destination": "/p/sobre-mi"
+    },
+    {
+      "source": "/sobre-mi",
+      "destination": "/p/sobre-mi"
+    },
+    {
+      "source": "/legal",
+      "destination": "/p/privacidad"
+    },
+    {
+      "source": "/privacidad",
+      "destination": "/p/privacidad"
+    },
+    {
+      "source": "/cookies",
+      "destination": "/p/privacidad"
+    },
+    {
+      "source": "/newsletter",
+      "destination": "https://www.getrevue.co/profile/carlosazaustre"
+    },
+    {
+      "source": "/discord",
+      "destination": "https://discord.gg/hFB74kD7n7"
+    },
+    {
+      "source": "/comunidad",
+      "destination": "https://discord.gg/hFB74kD7n7"
+    },
+    {
+      "source": "/youtube",
+      "destination": "https://youtube.com/carlosazaustre?sub_confirmation=1"
+    },
+    {
+      "source": "/miembros",
+      "destination": "https://youtube.com/carlosazaustre/join"
+    },
+    {
+      "source": "/videos",
+      "destination": "https://youtube.com/carlosazaustre?sub_confirmation=1"
+    },
+    {
+      "source": "/twitch",
+      "destination": "https://twitch.tv/carlosazaustre"
+    },
+    {
+      "source": "/live",
+      "destination": "https://twitch.tv/carlosazaustre"
+    },
+    {
+      "source": "/twitter",
+      "destination": "https://twitter.com/carlosazaustre"
+    },
+    {
+      "source": "/ig",
+      "destination": "https://instagram.com/carlosazaustre"
+    },
+    {
+      "source": "/instagram",
+      "destination": "https://instagram.com/carlosazaustre"
+    },
+    {
+      "source": "/cv",
+      "destination": "https://linkedin.com/in/carlosazaustre"
+    },
+    {
+      "source": "/tienda",
+      "destination": "https://carlosazaustre.creator-spring.com/"
+    },
+    {
+      "source": "/merch",
+      "destination": "https://carlosazaustre.creator-spring.com/"
+    },
+    {
+      "source": "/links",
+      "destination": "/info"
+    },
+    {
+      "source": "/redes",
+      "destination": "/info"
+    },
+    {
+      "source": "/start",
+      "destination": "/info"
+    },
+    {
+      "source": "/empieza",
+      "destination": "/info"
+    },
+    {
+      "source": "/go",
+      "destination": "/info"
+    },
+    {
+      "source": "/feed",
+      "destination": "/rss.xml"
+    },
+    {
+      "source": "/rss",
+      "destination": "/rss.xml"
+    }
+  ]
+}
