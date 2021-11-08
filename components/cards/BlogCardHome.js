@@ -7,7 +7,7 @@ export const BlogCardHome = ({ posts }) => {
   return (
     <Card type="home" headerTitle="Blog">
       {posts.map((post) => (
-        <NextLink href={post.slug} key={post.slug}>
+        <NextLink href="/" key={post.slug}>
           <a>
             <Box my={2}>
               <Text isTruncated>{post.title}</Text>

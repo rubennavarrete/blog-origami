@@ -13,7 +13,7 @@ export const Header = () => {
         justify="space-between"
         align="center"
       >
-        <h1 title="Desarrollo JavaScript Fullstack - Carlos Azaustre">
+        <h1 title="Origami - Blog">
           <Logo />
         </h1>
         <SectionLinks />

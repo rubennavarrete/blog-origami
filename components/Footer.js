@@ -67,6 +67,8 @@ export const Footer = () => {
                   >
                     Origami
                   </Text>
+                  <br />
+                  <p>by Ruben Valencia</p>
                 </Flex>
               </a>
             </NextLink>
@@ -100,6 +102,43 @@ export const Footer = () => {
               </Link>
             </Flex> */}
           </Flex>
+
+          <section>
+            <Heading as="h4" size="sm" p="4">
+              Integrantes Grupo 4
+            </Heading>
+            <UnorderedList styleType="none">
+              <ListItem>
+                <NextLink href="/">
+                  <Link>Ruben Valencia</Link>
+                </NextLink>
+              </ListItem>
+              <ListItem>
+                {/* /p/mentoria */}
+                <NextLink href="/">
+                  <Link>Cristian Proaño</Link>
+                </NextLink>
+              </ListItem>
+              <ListItem>
+                {/* /p/sobre-mi */}
+                <NextLink href="/">
+                  <Link>Melany Secaira</Link>
+                </NextLink>
+              </ListItem>
+              <ListItem>
+                {/* /blog */}
+                <NextLink href="/">
+                  <Link>Pablo Bolaños</Link>
+                </NextLink>
+              </ListItem>
+              <ListItem>
+                {/* /blog */}
+                <NextLink href="/">
+                  <Link>Santiago Guaylla</Link>
+                </NextLink>
+              </ListItem>
+            </UnorderedList>
+          </section>
 
           <section>
             <Heading as="h4" size="sm" p="4">

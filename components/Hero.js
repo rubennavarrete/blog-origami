@@ -25,7 +25,7 @@ export const Hero = () => {
         lineHeight={1.1}
         textAlign={["center", "center", "center", "left"]}
       >
-        Al mundo del Origami
+        Al mundo del Origami y Kirigami
       </Text>
       <Text
         as="h3"
@@ -35,7 +35,7 @@ export const Hero = () => {
         textAlign={["center", "center", "center", "left"]}
         my={4}
       >
-        El origen del <strong>Origami</strong> Pensamos que es originario de {" "}
+        El origen del <strong>Origami</strong>, Pensamos que es originario de {" "}
         <strong>Japón</strong>, y algunos lo definen como el arte japonés que se forma doblando hojas de papel.
         <br />
         <br />
