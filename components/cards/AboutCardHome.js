@@ -15,8 +15,7 @@ export const AboutCardHome = () => {
       <Text py="2">
         La presente es un Proyecto orientado al conocimiento del Origami, nos centraremos en conocer su historia, impacto en el mundo y la importancia de trasmitir este conocimiento, por la cual desarrollaremos un museo virtual del Origami
       </Text>
-      {/* /p/sobre-mi */}
-      <NextLink href="/">
+      <NextLink href="/p/sobre-nosotros">
         <Link py={4} color="brand.900">
           Más sobre nosotros →
         </Link>

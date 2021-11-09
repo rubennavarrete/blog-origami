@@ -144,6 +144,7 @@ export const ContactCardHome = () => {
             loadingText="Enviando"
             isLoading={isSubmitting}
             isDisabled={!isValid}
+            disabled
           >
             Enviar
           </Button>

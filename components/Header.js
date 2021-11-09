@@ -17,17 +17,6 @@ export const Header = () => {
           <Logo />
         </h1>
         <SectionLinks />
-        {/* <HStack spacing="40px">
-          <Link
-            href="//youtube.com/c/CarlosAzaustre?sub_confirmation=1"
-            isExternal
-          >
-            <IconYoutube size="40px" />
-          </Link>
-          <Link href="//twitch.tv/carlosazaustre" isExternal>
-            <IconTwitch size="40px" />
-          </Link>
-        </HStack> */}
       </Flex>
     </Box>
   );

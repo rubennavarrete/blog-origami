@@ -152,25 +152,17 @@ export const Footer = () => {
               </ListItem> */}
               <ListItem>
                 <NextLink href="/">
-                  <Link>Home</Link>
+                  <Link>Inicio</Link>
                 </NextLink>
               </ListItem>
               <ListItem>
-                {/* /p/mentoria */}
-                <NextLink href="/">
-                  <Link>Historia</Link>
-                </NextLink>
-              </ListItem>
-              <ListItem>
-                {/* /p/sobre-mi */}
-                <NextLink href="/">
-                  <Link>Sobre nosotros</Link>
-                </NextLink>
-              </ListItem>
-              <ListItem>
-                {/* /blog */}
-                <NextLink href="/">
+                <NextLink href="/blog">
                   <Link>Blog</Link>
+                </NextLink>
+              </ListItem>
+              <ListItem>
+                <NextLink href="/p/sobre-mi">
+                  <Link>About</Link>
                 </NextLink>
               </ListItem>
             </UnorderedList>
@@ -210,26 +202,6 @@ export const Footer = () => {
                 <NextLink href="/">
                   <Link>Origami 5</Link>
                 </NextLink>
-              </ListItem>
-            </UnorderedList>
-          </section>
-
-          <section>
-            <Heading as="h4" size="sm" p="4">
-              Legal
-            </Heading>
-            <UnorderedList styleType="none">
-              <ListItem>
-                {/* /privacidad */}
-                <Link href="/">
-                  <a>Política de Privacidad</a>
-                </Link>
-              </ListItem>
-              <ListItem>
-                {/* /cookies */}
-                <Link href="/">
-                  <a>Política de Cookies</a>
-                </Link>
               </ListItem>
             </UnorderedList>
           </section>

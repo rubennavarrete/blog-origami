@@ -23,12 +23,11 @@ export const NewsletterFormCard = ({ size }) => {
     <Card
       type={size}
       bgColor="brand.900"
-      headerTitle="Únete y ponte al día en desarrollo web"
+      headerTitle="Únete y ponte al día en el Origami y Kirigami"
     >
       <Text py={2}>
         Recibe puntualmente información sobre las últimas novedades en
-        tecnologías web y desarrollo web moderno para que estés siempre estés a
-        la última
+        Origami y Kirigami, no dudes en ponerte en contacto con nosotros mediante la información de contacto a continuación, o envíanos un mensaje mediante el formulario
       </Text>
       <form
         action="https://www.getrevue.co/profile/carlosazaustre/add_subscriber"
@@ -77,6 +76,7 @@ export const NewsletterFormCard = ({ size }) => {
             id="member_submit"
             size="lg"
             onClick={() => generateLead()}
+            disabled
           >
             Suscríbirme
           </Button>

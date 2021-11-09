@@ -41,19 +41,9 @@ export const Hero = () => {
         <br />
         En realidad, no se originó en <strong>Japón</strong> sino en <strong>China</strong> alrededor del siglo primero o segundo y no fue sino hasta el siglo sexto que llegó a <strong>Japón</strong> llevado ahí por los monjes.
       </Text>
-      {/* /cursos/programacion-javascript */}
-      <Link href="/">
+      <Link href="/historia-origami">
         <a><ButtonCTA>¡Conocer mas!</ButtonCTA></a>
       </Link>
-      {/* <Box mx={"auto"}>
-        <Image
-          layout="fixed"
-          width={400}
-          height={150}
-          src="/assets/company-logos.png"
-          alt="Google, IBM, Eventbrite. Chefly"
-        />
-      </Box> */}
     </Fragment>
   );
 };

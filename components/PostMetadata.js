@@ -1,7 +1,6 @@
 import { formatDate } from "@/lib/format-date";
 import { Flex, Text, Tag, Link } from "./elements";
 import { IconCalendar, IconComment, IconClock } from "./icons";
-import { OpenPR } from "./OpenPR";
 import { Disqus } from "./Disqus";
 
 export const PostMetadata = ({ metadata }) => {
@@ -38,7 +37,6 @@ export const PostMetadata = ({ metadata }) => {
           ))}
         </Flex>
       </Flex>
-      <OpenPR slug={metadata.slug} />
     </Flex>
   );
 };

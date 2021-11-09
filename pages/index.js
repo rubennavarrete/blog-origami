@@ -55,17 +55,6 @@ export default function Home({ posts }) {
             >
               <Hero />
             </UI.Flex>
-            <UI.Flex
-              direction="row"
-              w={["100%", "100%", "100%", "39%", "60%"]}
-              justify={["center", "center", "center", "center", "flex-start"]}
-            >
-              {/* <Link href="/libros/aprendiendo-javascript">
-                <a>
-                  <Book imageSrc="/assets/aprendiendo-javascript-libro.png" />
-                </a>
-              </Link> */}
-            </UI.Flex>
           </StyledMain>
         </UI.Container>
       </UI.Box>

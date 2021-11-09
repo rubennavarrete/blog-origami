@@ -9,18 +9,18 @@ export const AboutCard = () => {
       type="aside"
       bgColor="secondary.900"
       headerColor="brand.900"
-      headerTitle="Sobre Mi"
+      headerTitle="ESPOCH"
     >
       <Fragment>
         <Flex justify="center" py="4">
           <Img
-            boxSize="96px"
+            boxSize="296px"
             borderRadius="full"
-            src="/assets/carlos-azaustre-gde-web.png"
+            src="/images/sobre-mi/espoch.jpg"
             alt="Carlos Azaustre"
           />
         </Flex>
-        <Box color="white" py="4">
+        {/* <Box color="white" py="4">
           <Text py="2">
             Soy Carlos Azaustre. Desarrollador web desde hace{" "}
             {new Date().getFullYear() - 2011} años.
@@ -34,7 +34,7 @@ export const AboutCard = () => {
             blog todo lo que aprendo y así compartirlo con el resto de la
             comunidad.
           </Text>
-        </Box>
+        </Box> */}
       </Fragment>
     </Card>
   );

@@ -21,9 +21,9 @@ export default function NotFound() {
         La página que buscas no se encuentra.
         <br />
         <br />
-        Pero tienes aquí tienes el blog 👉
+        Pero aquí tienes el blog 👉
         <NextLink href="/blog">
-          <UI.Link>Leer artículos y tutoriales</UI.Link>
+          <UI.Link>Leer artículos</UI.Link>
         </NextLink>
       </UI.Heading>
     </Layout>
