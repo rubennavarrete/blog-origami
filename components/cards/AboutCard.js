@@ -16,7 +16,7 @@ export const AboutCard = () => {
           <Img
             boxSize="296px"
             borderRadius="full"
-            src="/images/sobre-mi/espoch.jpg"
+            src="/assets/LogoEspoch.png"
             alt="Carlos Azaustre"
           />
         </Flex>

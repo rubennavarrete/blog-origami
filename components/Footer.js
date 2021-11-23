@@ -109,33 +109,19 @@ export const Footer = () => {
             </Heading>
             <UnorderedList styleType="none">
               <ListItem>
-                <NextLink href="/">
-                  <Link>Ruben Valencia</Link>
-                </NextLink>
+                Ruben Valencia
               </ListItem>
               <ListItem>
-                {/* /p/mentoria */}
-                <NextLink href="/">
-                  <Link>Cristian Proaño</Link>
-                </NextLink>
+                Cristian Proaño
               </ListItem>
               <ListItem>
-                {/* /p/sobre-mi */}
-                <NextLink href="/">
-                  <Link>Melany Secaira</Link>
-                </NextLink>
+                Melany Secaira
               </ListItem>
               <ListItem>
-                {/* /blog */}
-                <NextLink href="/">
-                  <Link>Pablo Bolaños</Link>
-                </NextLink>
+                Pablo Bolaños
               </ListItem>
               <ListItem>
-                {/* /blog */}
-                <NextLink href="/">
-                  <Link>Santiago Guaylla</Link>
-                </NextLink>
+                Santiago Guaylla
               </ListItem>
             </UnorderedList>
           </section>
@@ -161,8 +147,18 @@ export const Footer = () => {
                 </NextLink>
               </ListItem>
               <ListItem>
+                <NextLink href="https://www.artsteps.com/view/6188358791dc3426dd0290bf/?currentUser">
+                  <Link>Paseo virtual</Link>
+                </NextLink>
+              </ListItem>
+              <ListItem>
                 <NextLink href="/p/sobre-mi">
                   <Link>About</Link>
+                </NextLink>
+              </ListItem>
+              <ListItem>
+                <NextLink href="/">
+                  <Link>RSS</Link>
                 </NextLink>
               </ListItem>
             </UnorderedList>
