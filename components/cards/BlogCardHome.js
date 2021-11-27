@@ -5,7 +5,7 @@ import { Text, Link, Box } from "../elements";
 
 export const BlogCardHome = ({ posts }) => {
   return (
-    <Card type="home" headerTitle="Blog">
+    <Card type="home" headerTitle="Contenido">
       {posts.map((post) => (
         <NextLink href={post.slug} key={post.slug}>
           <a>
@@ -19,7 +19,7 @@ export const BlogCardHome = ({ posts }) => {
         </NextLink>
       ))}
       <NextLink href="/blog">
-        <Link color="brand.900">Ir al Blog →</Link>
+        <Link color="brand.900">Todo el Contenido →</Link>
       </NextLink>
     </Card>
   );

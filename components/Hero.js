@@ -35,11 +35,8 @@ export const Hero = () => {
         textAlign={["center", "center", "center", "left"]}
         my={4}
       >
-        El origen del <strong>Origami</strong>, Pensamos que es originario de {" "}
-        <strong>Japón</strong>, y algunos lo definen como el arte japonés que se forma doblando hojas de papel.
-        <br />
-        <br />
-        En realidad, no se originó en <strong>Japón</strong> sino en <strong>China</strong> alrededor del siglo primero o segundo y no fue sino hasta el siglo sexto que llegó a <strong>Japón</strong> llevado ahí por los monjes.
+        El <strong>Origami</strong>, se pensaba que es originario de Japón, pero en los registros de este arte en realidad, no se originó en Japón sino en China a finales del siglo primero y no fue sino hasta el siglo sexto que llegó a Japón llevado ahí por los monjes, y se lo definió <strong> como el arte de doblar hojas de papel</strong> sin tener la intervención de una tijera en el momento de plegar.
+
       </Text>
       <Link href="/historia-origami">
         <a><ButtonCTA>¡Conocer mas!</ButtonCTA></a>

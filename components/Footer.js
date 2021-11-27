@@ -143,7 +143,7 @@ export const Footer = () => {
               </ListItem>
               <ListItem>
                 <NextLink href="/blog">
-                  <Link>Blog</Link>
+                  <Link>Contenido</Link>
                 </NextLink>
               </ListItem>
               <ListItem>

@@ -1,9 +1,9 @@
 import { DiscussionEmbed, CommentCount } from "disqus-react";
 
 export const Disqus = ({ type = "embed", title, slug }) => {
-  const disqusShortname = "carlosazaustre";
+  const disqusShortname = "rubenvalencia";
   const disqusConfig = {
-    url: `https://carlosazaustre.es/${slug}`,
+    url: `blog-origami.rubenvn.com/${slug}`,
     identifier: slug,
     title,
     language: "es",
