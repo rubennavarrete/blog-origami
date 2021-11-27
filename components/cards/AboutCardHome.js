@@ -5,7 +5,7 @@ import { Text, Link } from "../elements";
 
 export const AboutCardHome = () => {
   return (
-    <Card type="home" headerTitle="About">
+    <Card type="home" headerTitle="Sobre Nosotros">
       <Text py="2">
         ¡Hola! Somos estudiantes de la Escuela Superior Politecnica de Chimborazo.
       </Text>

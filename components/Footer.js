@@ -109,19 +109,29 @@ export const Footer = () => {
             </Heading>
             <UnorderedList styleType="none">
               <ListItem>
-                Ruben Valencia
+                <NextLink href="/p/sobre-nosotros">
+                  <Link>Ruben Valencia</Link>
+                </NextLink>
               </ListItem>
               <ListItem>
-                Cristian Proaño
+                <NextLink href="/p/sobre-nosotros">
+                  <Link>Cristian Proaño</Link>
+                </NextLink>
               </ListItem>
               <ListItem>
-                Melany Secaira
+                <NextLink href="/p/sobre-nosotros">
+                  <Link>Melany Secaira</Link>
+                </NextLink>
               </ListItem>
               <ListItem>
-                Pablo Bolaños
+                <NextLink href="/p/sobre-nosotros">
+                  <Link>Pablo Bolaños</Link>
+                </NextLink>
               </ListItem>
               <ListItem>
-                Santiago Guaylla
+                <NextLink href="/p/sobre-nosotros">
+                  <Link>Santiago Guaylla</Link>
+                </NextLink>
               </ListItem>
             </UnorderedList>
           </section>
@@ -147,19 +157,29 @@ export const Footer = () => {
                 </NextLink>
               </ListItem>
               <ListItem>
-                <NextLink href="https://www.artsteps.com/view/6188358791dc3426dd0290bf/?currentUser">
+                <NextLink href="/p/paseo-virtual">
                   <Link>Paseo virtual</Link>
                 </NextLink>
               </ListItem>
               <ListItem>
-                <NextLink href="/p/sobre-mi">
-                  <Link>About</Link>
+                <NextLink href="/p/objetos-3d">
+                  <Link>Objeto 3D</Link>
                 </NextLink>
               </ListItem>
               <ListItem>
-                <NextLink href="/">
-                  <Link>RSS</Link>
+                <NextLink href="/p/sobre-mi">
+                  <Link>Sobre nosotros</Link>
                 </NextLink>
+              </ListItem>
+              <ListItem>
+                <NextLink href="/p/acerca-de">
+                  <Link>Acerca de</Link>
+                </NextLink>
+              </ListItem>
+              <ListItem>
+                {/*<NextLink href="/">
+                  <Link>RSS</Link>
+                </NextLink>*/}
               </ListItem>
             </UnorderedList>
           </section>
