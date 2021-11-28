@@ -186,13 +186,13 @@ export const Footer = () => {
 
           <section>
             <Heading as="h4" size="sm" p="4">
-              Recursos
+              Objetos 3D
             </Heading>
             <UnorderedList styleType="none">
               <ListItem>
                 {/* /libros/aprendiendo-javascript */}
-                <NextLink href="/">
-                  <Link>Origami 1</Link>
+                <NextLink href="/objetos/objeto-puerta">
+                  <Link>Puerta</Link>
                 </NextLink>
               </ListItem>
               <ListItem>

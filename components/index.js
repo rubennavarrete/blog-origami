@@ -16,7 +16,7 @@ export { ButtonCTA } from "./ButtonCTA";
 export { SectionLinks } from "./SectionLinks";
 export { PostMetadata } from "./PostMetadata";
 export { PostListItem } from "./PostListItem";
-export { CourseListItem } from "./CourseListItem";
+export { ObjetoListItem } from "./ObjetoListItem";
 export { Disqus } from "./Disqus";
 export { ScrollToTop } from "./ScrollToTop";
 export { SellItem } from "./SellItem";

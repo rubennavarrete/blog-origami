@@ -1,6 +1,6 @@
 import { Box, Heading } from "./elements";
 
-export const CourseListItem = ({ title }) => {
+export const ObjetoListItem = ({ title }) => {
   return (
     <Box borderBottom="1px" borderColor="brand.900" p="6">
       <Heading as="h3" size="md" my={2}>
