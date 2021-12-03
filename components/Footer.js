@@ -190,16 +190,14 @@ export const Footer = () => {
             </Heading>
             <UnorderedList styleType="none">
               <ListItem>
-                {/* /libros/aprendiendo-javascript */}
                 <NextLink href="/objetos/objeto-puerta">
                   <Link>Puerta</Link>
                 </NextLink>
               </ListItem>
               <ListItem>
                 <ListItem>
-                  {/* /cursos/programacion-javascript */}
-                  <NextLink href="/">
-                    <Link>Origami 2</Link>
+                  <NextLink href="/objetos/objeto-estante">
+                    <Link>Estante</Link>
                   </NextLink>
                 </ListItem>
                 {/* /cursos/nodejs-gratis */}
