@@ -200,9 +200,8 @@ export const Footer = () => {
                     <Link>Estante</Link>
                   </NextLink>
                 </ListItem>
-                {/* /cursos/nodejs-gratis */}
-                <NextLink href="/">
-                  <Link>Origami 3</Link>
+                <NextLink href="/objetos/objeto-grulla">
+                  <Link>Grulla</Link>
                 </NextLink>
               </ListItem>
               <ListItem>
