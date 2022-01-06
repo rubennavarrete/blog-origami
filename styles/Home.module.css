@@ -114,3 +114,32 @@
     flex-direction: column;
   }
 }
+
+.contentNav {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 425px) {
+  .contentNav {
+    flex-direction: column;
+  }
+
+  .responsiveP {
+    font-size: 25px !important;
+  }
+
+  .responsiveH2 {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .responsiveP {
+    font-size: 25px !important;
+  }
+
+  .responsiveH2 {
+    font-size: 15px !important;
+  }
+}

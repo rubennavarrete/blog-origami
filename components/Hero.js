@@ -2,6 +2,8 @@ import { Fragment } from "react";
 // import Image from "next/image";
 import Link from "next/link";
 
+import styles from "../styles/Home.module.css";
+
 import { Text, Box } from "./elements";
 import { ButtonCTA } from "./ButtonCTA";
 
@@ -14,6 +16,7 @@ export const Hero = () => {
         fontSize={["4xl", "5xl"]}
         lineHeight={1.1}
         textAlign={["center", "center", "center", "left"]}
+        className={styles.responsiveP}
       >
         Hola 👋🏼, Bienvenidos
       </Text>{" "}
@@ -24,6 +27,7 @@ export const Hero = () => {
         fontWeight="black"
         lineHeight={1.1}
         textAlign={["center", "center", "center", "left"]}
+        className={styles.responsiveH2}
       >
         Al mundo del Origami y Kirigami
       </Text>
@@ -35,12 +39,16 @@ export const Hero = () => {
         textAlign={["center", "center", "center", "left"]}
         my={4}
       >
-
-        El origen del <strong>Origami</strong>, comúnmente pensado, suscitado en Japón, es una falacia ad populum, en realidad, se remonta a la creación del papel mismo (el cual es una invención china) alrededor del siglo I o II d. C. El papel no llegó a Japón hasta el siglo sexto, siendo allí cuando se integró a la cultura japonesa.
-
+        El origen del <strong>Origami</strong>, comúnmente pensado, suscitado en
+        Japón, es una falacia ad populum, en realidad, se remonta a la creación
+        del papel mismo (el cual es una invención china) alrededor del siglo I o
+        II d. C. El papel no llegó a Japón hasta el siglo sexto, siendo allí
+        cuando se integró a la cultura japonesa.
       </Text>
       <Link href="/historia-origami">
-        <a><ButtonCTA>¡Conocer mas!</ButtonCTA></a>
+        <a>
+          <ButtonCTA>¡Conocer mas!</ButtonCTA>
+        </a>
       </Link>
     </Fragment>
   );
