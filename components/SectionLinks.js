@@ -39,6 +39,7 @@ const SectionLinkItem = styled.a`
 
   @media screen and (min-width: 1439px) {
     font-size: var(--chakra-fontSizes-2xl);
+    text-align: center;
   }
 `;
 
