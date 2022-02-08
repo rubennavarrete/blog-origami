@@ -11,3 +11,168 @@ Para el desarrollo de la aplicación de Windows, se usará unity el cual permiti
 Una vez abierto unity se puede importar los objetos ya diseñados.
 
 ![Implementacion](/images/aplicacion-windows/1.png)
+
+Al realizar la importación, como en el presente proyecto ya se realizó la ambientación del espacio virtual en blender este no se requerirá de realizar modificación alguna.
+Para la simulación del personaje que este atreves del espacio creado, por lo cual se usaran modelos de internet el cual ya posee sus esqueletos conjuntos con sus animaciones obtenidos en el presente - Link: [Mixamo](https://www.mixamo.com/#/?page=1&query=left&type=Motion%2CMotionPack)
+
+![Implementacion](/images/aplicacion-windows/2.png)
+
+Se puede descargar cualquier animación a gusto con forme la necesidad del programador, en este proyecto se descargarán 4 archivos uno que es el personaje 3 animaciones, girar, caminar, estar de pie.
+
+![Implementacion](/images/aplicacion-windows/3.png)
+
+Seleccionado el personaje y la animación deseada, descargar los archivos en formato “FBX for unity(.fbx)” realizar el mismo procedimiento con las animaciones restantes
+
+![Implementacion](/images/aplicacion-windows/4.png)
+
+Una vez descargado los archivos podemos dirigirnos directo a unity donde se crea una carpeta con el nombre “Personaje” y se proceder arrastrar los archivos.
+
+![Implementacion](/images/aplicacion-windows/5.png)
+
+Con los archivos importados, seleccionar los 4 archivos que poseen el icono del personaje y asignarle el tipo de animación Humanoide en el inspector
+
+![Implementacion](/images/aplicacion-windows/6.png)
+
+A continuación, seleccionar solo las animaciones, y en avatar definition, seleccionar la opción select from other avatar.
+
+![Implementacion](/images/aplicacion-windows/7.png)
+
+sin dejar de seleccionar las 3 animaciones, desplegar las opciones del cuerpo y arrastrar el esqueleto a la opción” Source”
+
+![Implementacion](/images/aplicacion-windows/8.png)
+
+Configurado esto, arrastrar el personaje a la escena
+
+![Implementacion](/images/aplicacion-windows/9.png)
+
+Escalarlo hasta darlo la medida adecuada y colocarlo en una ubicación inicial.
+
+![Implementacion](/images/aplicacion-windows/10.png)
+
+Con el personaje seleccionado, agregar un nuevo componente “RigidBody”
+
+![Implementacion](/images/aplicacion-windows/11.png)
+
+Y adicional mente añadirle un “Capsule Colider”
+
+![Implementacion](/images/aplicacion-windows/12.png)
+
+Capsule colíder hace rígidos a los cuerpos permitiendo así que no atraviese a los demás cuerpos, para eso escalar el capsule colíder al cuerpo del personaje.
+
+![Implementacion](/images/aplicacion-windows/13.png)
+
+Para realizar el control de las animaciones se debe crear un C#script para eso click derecho, en Project y crear C#script
+
+![Implementacion](/images/aplicacion-windows/14.png)
+
+Creado el script realizar el siguiente código, el cual permite el movimiento del personaje.
+
+![Implementacion](/images/aplicacion-windows/15.png)
+
+Guardar el archivo y abrir unity este se cargará de manera inmediata.
+Para añadir las animaciones al proyecto se debe crear un animator controller, para eso click derecho, en el proyecto/crear/animator controller
+
+![Implementacion](/images/aplicacion-windows/16.png)
+
+Dar doble click en el controlador, y en el apartado de parámetros agregar dos variables Float
+
+![Implementacion](/images/aplicacion-windows/17.png)
+
+En la parte derecha dar los parámetros creados de VelX y VelY además de agregar 5 controladores de animaciones.
+
+![Implementacion](/images/aplicacion-windows/18.png)
+
+Para agregar las animaciones a estos parámetros, se debe seleccionar el controlador descargado para eso dirigirse a la animación y desplegarlo, seleccionando la animación.
+
+![Implementacion](/images/aplicacion-windows/19.png)
+
+Copiarlo y pegarlo en la carpeta donde tiene el controlador de animaciones creado, realizar lo mismo con las 2 animaciones restantes.
+
+![Implementacion](/images/aplicacion-windows/20.png)
+
+Para agregarlas seleccionar en el recuadro blend tree y arrastrar las animaciones con la siguiente configuración.
+
+![Implementacion](/images/aplicacion-windows/21.png)
+
+Estas permitirán realizar los movimientos en los 2 ejes, y a su vez generar el espejo en la animación a la derecha.
+Por ultimo para que la cámara siga al personaje arrastrar la cámara dentro del personaje así este obtendrá los atributos del mismo.
+
+![Implementacion](/images/aplicacion-windows/22.png)
+
+Por ultimo ubicar la cámara por detrás del personaje dando una mejor perspectiva al juego.
+
+![Implementacion](/images/aplicacion-windows/23.png)
+
+Para ejecutarlo dar click en el boton de Play en la parte superior.
+
+![Implementacion](/images/aplicacion-windows/24.png)
+
+Para mejorar la presentación, de las paredes se puede insertar textura a las mismas para eso, se puede importar alguna imagen con un drag en drop en los archivos de unity, proseguido de arrastrar la imagen al objeto de la siguiente manera.
+
+![Implementacion](/images/aplicacion-windows/25.png)
+
+Se debe identificar bien el objeto al cual se exportará la textura, para eso solo se debe arrastrar al mismo, realizar el mismo proceso con los demás objetos en caso de requerirlo.
+Para realizar las diferentes escenas crear una carpeta el cual contendrá las diferentes partes de las mismas
+
+![Implementacion](/images/aplicacion-windows/26.png)
+
+Dentro de la carpeta crear las diferentes escenas y con carpetas correspondientes para almacenar todos los archivos según sus escenas.
+
+![Implementacion](/images/aplicacion-windows/27.png)
+
+En el presente proyecto al tratarse de ser interfaces en cada carpeta se importará las diferentes imágenes para las escenas para eso, dar click en la escena creada, abriendo el espacio en el cual se trabajará e importar una RAW IMAGE el cual permitirá adjuntarle una imagen como fondo para darle el texturizado deseado.
+
+![Implementacion](/images/aplicacion-windows/28.png)
+
+Ya con la imagen importada se debe cambiar la configuración de la misma para mantener su calidad y resolución para eso dar clic en la imagen importada abriendo el inspector y cambiando el tipo de textura.
+
+![Implementacion](/images/aplicacion-windows/29.png)
+
+Con la imagen ya preparada se puede insertar en el RAW IMAGEN, para eso dar clic en la misma y arrastrar la imagen en la textura del RAW.
+
+![Implementacion](/images/aplicacion-windows/30.png)
+
+Para realizar los botones dar clic derecho en canva e ingresar un BUTTON
+
+![Implementacion](/images/aplicacion-windows/31.png)
+
+Una vez creado el botón redimensionarlo al mismo presionando la tecla T
+
+![Implementacion](/images/aplicacion-windows/32.png)
+
+Para darle el efecto de presión al mismo dar clic en el botón y configurar los colores de: estado normal = null , presión = 021957, indicador = 0B207E, y estado de presión = null, de la siguiente manera.
+
+![Implementacion](/images/aplicacion-windows/33.png)
+
+Configurado el/los botones/es crear un SCRIPT el cual permitirá realizar el cambio de escenas, con el siguiente código.
+
+![Implementacion](/images/aplicacion-windows/34.png)
+
+En este caso en la línea 8 creando un estado el cual contendrá los nombres de las escenas creadas con una numeración permitiendo así controlarlas de esa manera, guardar el script y regresar a unity este cargará automáticamente.
+
+Añadir el script al botón arrastrando y soltando en la configuración del botón
+
+![Implementacion](/images/aplicacion-windows/35.png)
+
+Para que el script funcione se debe añadir las escenas al proyecto, para eso dirigirse a FILE/BUILD SETTINGS y añadir la escena este proceso se dará con solo presionar el botón añadir
+
+![Implementacion](/images/aplicacion-windows/36.png)
+
+Se debe tener muy encuentra el número de las escenas con las que se añadió, ya que debe coincidir con las del script creado, de lo contrario modificar el script.
+
+Para habilitar los botones en el inspector añadir una función de clic, añadir el mismo botón e indicar la instrucción q desea realizar.
+
+![Implementacion](/images/aplicacion-windows/37.png)
+
+Luego de seleccionar la función creada añadir el número de la escena que se desea re direccionar.
+
+![Implementacion](/images/aplicacion-windows/38.png)
+
+Realizar los mismos pasos con las diferentes escenas y botones.
+Con todos los botones y escenas configuradas proceder a construir el programa para eso abrir BUILD SETTINGS y por ultimo construir.
+
+![Implementacion](/images/aplicacion-windows/39.png)
+
+Al finalizar la compilación se abrirá la ubicación de los archivos el cual estará compuesto por un ejecutable y los datos para que pueda ser ejecutado.
+
+![Implementacion](/images/aplicacion-windows/40.png)
